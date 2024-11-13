@@ -8,3 +8,4 @@ Tidak, upcasting tidak dapat dilakukan antara dua kelas yang tidak memiliki rela
 Pegawai pegawai1 = new Dosen();
 Pegawai pegawai1 = (Pegawai) new Dosen();
 ```
+
