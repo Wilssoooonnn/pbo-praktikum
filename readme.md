@@ -8,16 +8,16 @@ Tidak, upcasting tidak dapat dilakukan antara dua kelas yang tidak memiliki rela
 Pegawai pegawai1 = new Dosen();
 Pegawai pegawai1 = (Pegawai) new Dosen();
 ```
-Proses upcasting yang tepat ada pada baris pertama, adalah
+Proses Upcasting yang Tepat Ada Pada Baris Pertama, Adalah
 ```java
 Pegawai pegawai1 = new Dosen();
 ```
-Karena proses dilakukan secara implisit
+Karena Proses Dilakukan Secara Implisit
 
-### 3. Apa fungsi keyword instanceOF?
+### 3. Apa Fungsi Keyword InstanceOF?
 Keyword instanceOf digunakan untuk mengidentifikasi apakah sebuah object merupakan instance dari suatu class/interface
 
-### 4. Apa yang dimaksud heterogenous collection?
+### 4. Apa yang Dimaksud Heterogenous Collection?
 Heterogenous adalah kumpulan object yang terdiri dari berbagai tipe atau class yang berbeda
 
 ### 5. Sebuah object diinstansiasi dari class Pegawai. Kemudian dilakukan downcasting menjadi object bertipe Dosen. Apakah hal ini dapat dilakukan? Lakukan percobaan untuk membuktikannya. 
